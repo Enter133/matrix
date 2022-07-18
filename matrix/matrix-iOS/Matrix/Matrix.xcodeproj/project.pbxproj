@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -573,7 +573,7 @@
 		BBC5DDAC25C0472C006DB48F /* splay_map_simple_key.h in Headers */ = {isa = PBXBuildFile; fileRef = BBC5DD9E25C0472C006DB48F /* splay_map_simple_key.h */; };
 		BBD44594255EC6F400ABB9B7 /* WCFPSRecorder.mm in Sources */ = {isa = PBXBuildFile; fileRef = BBD44590255EC6F400ABB9B7 /* WCFPSRecorder.mm */; };
 		BBD44595255EC6F400ABB9B7 /* WCFPSRecorder.mm in Sources */ = {isa = PBXBuildFile; fileRef = BBD44590255EC6F400ABB9B7 /* WCFPSRecorder.mm */; };
-		BBD44598255EC6F400ABB9B7 /* WCFPSLogger.mm in Sources */ = {isa = PBXBuildFile; fileRef = BBD44591255EC6F400ABB9B7 /* WCFPSLogger.mm */; platformFilter = ios; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BBD44598255EC6F400ABB9B7 /* WCFPSLogger.mm in Sources */ = {isa = PBXBuildFile; fileRef = BBD44591255EC6F400ABB9B7 /* WCFPSLogger.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BBD44599255EC6F400ABB9B7 /* WCFPSLogger.mm in Sources */ = {isa = PBXBuildFile; fileRef = BBD44591255EC6F400ABB9B7 /* WCFPSLogger.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BBD4459C255EC6F400ABB9B7 /* WCFPSRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = BBD44592255EC6F400ABB9B7 /* WCFPSRecorder.h */; };
 		BBD4459D255EC6F400ABB9B7 /* WCFPSRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = BBD44592255EC6F400ABB9B7 /* WCFPSRecorder.h */; };
