@@ -391,6 +391,8 @@
 		1177FFF32137A53300FDFEB4 /* MatrixTester.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1177FFE421379FE800FDFEB4 /* MatrixTester.mm */; };
 		11B438EE21F17C6600A0A8C3 /* WCCrashBlockMonitorPlugin+Upload.h in Headers */ = {isa = PBXBuildFile; fileRef = 11B438EC21F17C6600A0A8C3 /* WCCrashBlockMonitorPlugin+Upload.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11B438F121F17C7000A0A8C3 /* WCCrashBlockMonitorPlugin+Upload.h in Headers */ = {isa = PBXBuildFile; fileRef = 11B438EC21F17C6600A0A8C3 /* WCCrashBlockMonitorPlugin+Upload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B772D032885458100C957A4 /* KSCrashReportFilterAppleFmt.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B772D012885458000C957A4 /* KSCrashReportFilterAppleFmt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B772D05288545CF00C957A4 /* KSCrashReportFilterAppleFmt.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B772D04288545CF00C957A4 /* KSCrashReportFilterAppleFmt.m */; };
 		93DD5872225F3731005C267C /* bundle_name_helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 93DD5870225F3731005C267C /* bundle_name_helper.h */; };
 		93DD5873225F3731005C267C /* bundle_name_helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 93DD5870225F3731005C267C /* bundle_name_helper.h */; };
 		93DD5874225F3731005C267C /* bundle_name_helper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 93DD5871225F3731005C267C /* bundle_name_helper.mm */; };
@@ -794,6 +796,8 @@
 		11B438EC21F17C6600A0A8C3 /* WCCrashBlockMonitorPlugin+Upload.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WCCrashBlockMonitorPlugin+Upload.h"; sourceTree = "<group>"; };
 		11E683E52103231D00E4EADC /* NSApplicationEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSApplicationEvent.h; sourceTree = "<group>"; };
 		11E683E62103231D00E4EADC /* NSApplicationEvent.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NSApplicationEvent.mm; sourceTree = "<group>"; };
+		7B772D012885458000C957A4 /* KSCrashReportFilterAppleFmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KSCrashReportFilterAppleFmt.h; path = "../../../../../../../Documents/Matrix/WeiGuang2.0/Pods/matrix-wechat/matrix/matrix-iOS/Matrix/Matrix/Test/KSCrashReportFilterAppleFmt.h"; sourceTree = "<group>"; };
+		7B772D04288545CF00C957A4 /* KSCrashReportFilterAppleFmt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCrashReportFilterAppleFmt.m; sourceTree = "<group>"; };
 		93DD5870225F3731005C267C /* bundle_name_helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bundle_name_helper.h; sourceTree = "<group>"; };
 		93DD5871225F3731005C267C /* bundle_name_helper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = bundle_name_helper.mm; sourceTree = "<group>"; };
 		B90279E8271E7D1500683F03 /* stack_hash_map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack_hash_map.h; sourceTree = "<group>"; };
@@ -954,6 +958,7 @@
 				11721F9421EC6B1B00E57E77 /* AppReboot */,
 				11721F9521EC6B2900E57E77 /* Log */,
 				11721F9621EC6B3400E57E77 /* Test */,
+				7B772CFF2885457700C957A4 /* KSCrashReportFilterAppleFmt */,
 				1177363121BFAC580053894E /* Util */,
 				114E67C420AAC0CE0045083D /* MatrixFramework.h */,
 				114E67B920AAC0CE0045083D /* Info.plist */,
@@ -1391,6 +1396,15 @@
 			path = SendEvent;
 			sourceTree = "<group>";
 		};
+		7B772CFF2885457700C957A4 /* KSCrashReportFilterAppleFmt */ = {
+			isa = PBXGroup;
+			children = (
+				7B772D012885458000C957A4 /* KSCrashReportFilterAppleFmt.h */,
+				7B772D04288545CF00C957A4 /* KSCrashReportFilterAppleFmt.m */,
+			);
+			path = KSCrashReportFilterAppleFmt;
+			sourceTree = "<group>";
+		};
 		BB49AFA221B00BAB00779E86 /* WCMemoryStat */ = {
 			isa = PBXGroup;
 			children = (
@@ -1697,6 +1711,7 @@
 				1164612A2111AF190069B5DE /* WCDumpReportTaskData.h in Headers */,
 				B90279E9271E7D1600683F03 /* stack_hash_map.h in Headers */,
 				1164612D2111AF190069B5DE /* KSCrashMonitor_NSException.h in Headers */,
+				7B772D032885458100C957A4 /* KSCrashReportFilterAppleFmt.h in Headers */,
 				B945E0EC278ECC2F005EE81F /* WCLagStackTracePoolUtil.h in Headers */,
 				BBC5DDAB25C0472C006DB48F /* splay_map_simple_key.h in Headers */,
 				BB77AD1222368582008C67D9 /* memory_logging.h in Headers */,
@@ -2128,6 +2143,7 @@
 				116460D22111AF190069B5DE /* MatrixPluginConfig.mm in Sources */,
 				116460D32111AF190069B5DE /* KSSignalInfo.c in Sources */,
 				116460D42111AF190069B5DE /* KSCrashMonitor_System.m in Sources */,
+				7B772D05288545CF00C957A4 /* KSCrashReportFilterAppleFmt.m in Sources */,
 				B964978925E3E5EB009F46BE /* memory_logging_event_buffer_list.cpp in Sources */,
 				116460D52111AF190069B5DE /* KSFileUtils.c in Sources */,
 				BB77ACFE22368582008C67D9 /* dyld_image_info.cpp in Sources */,
